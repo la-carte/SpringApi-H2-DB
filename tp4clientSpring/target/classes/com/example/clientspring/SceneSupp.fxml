@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="260.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientspring.HelloController">
+    <children>
+        <Label layoutX="63.0" layoutY="37.0" text="Supprimer un livre">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="63.0" layoutY="95.0" text="id" />
+        <TextField fx:id="id" layoutX="122.0" layoutY="91.0" />
+        <Button layoutX="63.0" layoutY="164.0" mnemonicParsing="false" onAction="#validedSupp" text="valider" />
+        <Button layoutX="207.0" layoutY="164.0" mnemonicParsing="false" onAction="#backToFisrt" text="annulé" />
+    </children>
+</AnchorPane>

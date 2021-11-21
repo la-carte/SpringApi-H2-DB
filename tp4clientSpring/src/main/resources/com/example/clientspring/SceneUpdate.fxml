@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientspring.UpdateController">
+    <children>
+        <Label layoutX="108.0" layoutY="41.0" text="Modifier un livre">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Button fx:id="valider" layoutX="162.0" layoutY="341.0" mnemonicParsing="false" onAction="#valideUpdate" text="Valider" />
+        <Label layoutX="34.0" layoutY="77.0" text="id" />
+        <Label fx:id="titreLabel" layoutX="32.0" layoutY="147.0" text="Titre" visible="false" />
+        <Label fx:id="auteursLabel" layoutX="37.0" layoutY="186.0" text="Auteurs" visible="false" />
+        <Label fx:id="textLabel" layoutX="36.0" layoutY="223.0" text="text" visible="false" />
+        <TextField fx:id="id" layoutX="108.0" layoutY="73.0" />
+        <TextField fx:id="titre" layoutX="113.0" layoutY="143.0" visible="false" />
+        <TextField fx:id="auteurs" layoutX="113.0" layoutY="182.0" visible="false" />
+        <TextField fx:id="text" layoutX="113.0" layoutY="219.0" visible="false" />
+      <Button layoutX="162.0" layoutY="107.0" mnemonicParsing="false" onAction="#clickOnSeach" text="Search" />
+    </children>
+</AnchorPane>

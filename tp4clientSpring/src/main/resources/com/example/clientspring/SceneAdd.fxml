@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="387.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientspring.HelloController">
+   <children>
+      <Label layoutX="108.0" layoutY="41.0" text="Ajouter un livre">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="129.0" layoutY="277.0" mnemonicParsing="false" onAction="#validedAdd" text="Valider" />
+      <Label fx:id="idArea" layoutX="34.0" layoutY="108.0" text="id" visible="false" />
+      <Label layoutX="32.0" layoutY="147.0" text="Titre" />
+      <Label layoutX="24.0" layoutY="186.0" text="Auteurs" />
+      <Label layoutX="36.0" layoutY="223.0" text="text" />
+      <TextField fx:id="id" layoutX="113.0" layoutY="104.0" visible="false" />
+      <TextField fx:id="titre" layoutX="113.0" layoutY="143.0" />
+      <TextField fx:id="auteurs" layoutX="113.0" layoutY="182.0" />
+      <TextField fx:id="text" layoutX="113.0" layoutY="219.0" />
+      <Button layoutX="120.0" layoutY="331.0" mnemonicParsing="false" onAction="#backToFisrt" text="fin" />
+   </children>
+</AnchorPane>

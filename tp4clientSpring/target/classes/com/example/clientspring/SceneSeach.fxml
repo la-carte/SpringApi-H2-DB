@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="421.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientspring.HelloController">
+   <children>
+      <Label layoutX="187.0" layoutY="42.0" text="Recherche de livre">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="95.0" text="id" />
+      <TextField fx:id="id" layoutX="195.0" layoutY="91.0" />
+      <TextArea fx:id="fild" layoutX="172.0" layoutY="146.0" prefHeight="200.0" prefWidth="200.0" visible="false" />
+      <Button layoutX="131.0" layoutY="360.0" mnemonicParsing="false" onAction="#validedSearchJson" text="JSON" />
+      <Button layoutX="341.0" layoutY="360.0" mnemonicParsing="false" onAction="#backToFisrt" text="Fin" />
+   </children>
+</AnchorPane>
